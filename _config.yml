@@ -49,7 +49,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: /mysite/
+    url: /mysite
     external: false
     icon: home
   - title: <i class="icon-book"></i> Documentation
@@ -87,7 +87,7 @@ kramdown:
     coderay_css: class
 
 prose:
-  rooturl: '/mysite/_posts'
+  rooturl: '_posts'
   siteurl: 'http://aiwis.github.io/'
   relativeLinks: 'http://aiwis.github.io/links.jsonp'
   media: 'images'
