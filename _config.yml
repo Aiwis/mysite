@@ -53,13 +53,13 @@ links:
     external: false
     icon: home
   - title: <i class="icon-book"></i> Documentation
-    url: /documentation
+    url: /mysite/documentation
   - title: Categories
-    url: /categories
+    url: /mysite/categories
   - title: Tags
-    url: /tags
+    url: /mysite/tags
   - title: Faysal who?
-    url: /hossain-mohd-faysal
+    url: /mysite/hossain-mohd-faysal
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
@@ -88,8 +88,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'http://hmfaysal.github.io/'
-  relativeLinks: 'http://hmfaysal.github.io/links.jsonp'
+  siteurl: 'http://aiwis.github.io/'
+  relativeLinks: 'http://aiwis.github.io/links.jsonp'
   media: 'images'
   metadata:
     _posts:
