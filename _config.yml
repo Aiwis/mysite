@@ -49,7 +49,7 @@ bing_verify:
 # For external links add external: true
 links:
   - title: Home
-    url: /mysite
+    url: /mysite/
     external: false
     icon: home
   - title: <i class="icon-book"></i> Documentation
