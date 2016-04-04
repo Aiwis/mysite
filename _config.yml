@@ -89,7 +89,7 @@ kramdown:
 prose:
   rooturl: '_posts'
   siteurl: 'http://aiwis.github.io/mysite'
-  relativeLinks: 'http://aiwis.github.io/links.jsonp'
+  relativeLinks: 'http://aiwis.github.io/mysite/links.jsonp'
   media: 'images'
   metadata:
     _posts:
