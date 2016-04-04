@@ -22,7 +22,7 @@ General notes and suggestions for customizing **HMFAYSAL OMEGA Theme**.
 
 ## Basic Setup for a new Jekyll site
 
-1. [Install Jekyll](http://jekyllrb.com) and read through [this installation instructions]({{ site.url }}/theme-setup/installing-jekyll-on-windows/) if you haven't already.
+1. [Install Jekyll](http://jekyllrb.com) and read through [this installation instructions]({{ siteurl }}/theme-setup/installing-jekyll-on-windows/) if you haven't already.
 2. Fork the [HMFAYSAL OMEGA Theme repo](https://github.com/hmfaysal/hmfaysal-omega-theme/fork)
 3. Clone the repo you just forked.
 4. Edit `_config.yml` to personalize your site.
@@ -304,7 +304,7 @@ HMFAYSAL-OMEGA-THEME
 
 ### _config.yml
 
-Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with `{{ "{{ site.url " }}}}` in the various `_includes` and `_layouts`, so remember to properly set `url`[^1] and use `http://localhost:4000` when developing locally or else the theme's stylesheet and scripts won't load.
+Most of the variables found here are used in the .html files found in `_includes` if you need to add or remove anything. A good place to start would be to change the title, tagline, description, and url of your site. Links are absolute and prefixed with `{{ "{{ siteurl " }}}}` in the various `_includes` and `_layouts`, so remember to properly set `url`[^1] and use `http://localhost:4000` when developing locally or else the theme's stylesheet and scripts won't load.
 #### Disqus Comments
 
 Create a [Disqus](http://disqus.com) account and change `disqus_shortname` in `_config.yml` to the Disqus *shortname* you just setup. To enable commenting on a post, add the following to its front matter:
@@ -365,7 +365,7 @@ search: true
 {% endhighlight %}
 
 <figure>
-  <img src="{{ site.url }}/images/simple-search-screenshot.jpg" alt="search screenshot">
+  <img src="{{ siteurl }}/images/simple-search-screenshot.jpg" alt="search screenshot">
   <figcaption>Clicking search triggers an overlay that allows you to search by post title.</figcaption>
 </figure>
 
@@ -409,7 +409,7 @@ Post and page thumbnails work the same way. These are used by [Open Graph](https
 Here's an example of what a tweet to your site could look like if you activate Twitter Cards and include all the metas in your post's YAML.
 
 <figure>
-<img src="{{ site.url }}/images/twitter-card-summary-large-image.jpg" alt="search screenshot">
+<img src="{{ siteurl }}/images/twitter-card-summary-large-image.jpg" alt="search screenshot">
 </figure>
 
 #### Videos
@@ -459,7 +459,7 @@ If you have some specific requests for this theme, or if you need help custom co
 
 ## License
 
-This theme is free and open source software, distributed under the [The MIT License]({{ site.url }}/license/). So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+This theme is free and open source software, distributed under the [The MIT License]({{ siteurl }}/license/). So feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
 
 If you'd like to give me credit somewhere on your blog or tweet a shout out to [@hmfaysal](https://twitter.com/hmfaysal), that would be pretty sweet.
 
