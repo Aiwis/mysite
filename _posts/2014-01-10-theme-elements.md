@@ -49,14 +49,14 @@ Want to link to a source? No problem. If you put the url in this format, like `[
 Images work too! And they are responsive! Already know the URL of the image you want to include in your article? Images are responsive and uses lightbox. 
 
 <figure>
-	<a href="{{ site.url }}/images/gallery1/photo (16).jpg"><img src="{{ site.url }}/images/gallery1/photo (16).jpg"></a>
+	<a href="/mysite/{{ site.url }}/images/gallery1/photo (16).jpg"><img src="/mysite/{{ site.url }}/images/gallery1/photo (16).jpg"></a>
 </figure>
 <figure class="half">
-	<a href="{{ site.url }}/images/gallery1/photo (14).jpg"><img src="{{ site.url }}/images/gallery1/photo (13).jpg"></a>
-	<a href="{{ site.url }}/images/gallery1/photo (20).jpg"><img src="{{ site.url }}/images/gallery1/photo (19).jpg"></a>
+	<a href="/mysite/{{ site.url }}/images/gallery1/photo (14).jpg"><img src="/mysite/{{ site.url }}/images/gallery1/photo (13).jpg"></a>
+	<a href="/mysite/{{ site.url }}/images/gallery1/photo (20).jpg"><img src="/mysite/{{ site.url }}/images/gallery1/photo (19).jpg"></a>
 </figure>
 
-Check out [this post]({{ site.url }}/articles/sample-post-images/) to learn about including images in your post.
+Check out [this post](/mysite/{{ site.url }}/articles/sample-post-images/) to learn about including images in your post.
 
 ## AND VIDEOS? ##
 
@@ -137,7 +137,7 @@ Got a streak of geek? We've got you covered there, too. You can write inline `<c
 }
 {% endhighlight %}
 
-Learn more about syntax highlighting [in this post]({{ site.url }}/articles/code-highlighting-post/).
+Learn more about syntax highlighting [in this post](/mysite/{{ site.url }}/articles/code-highlighting-post/).
 
 ## READY FOR A BREAK? ##
 
@@ -188,7 +188,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum velit quis m
 </div>  
 <br>
 
-For more column combinations, visit [this post]({{ site.url }}/personal/fancy-columns/).
+For more column combinations, visit [this post](/mysite/{{ site.url }}/personal/fancy-columns/).
 
 ## BUTTONS
 
